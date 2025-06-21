@@ -104,7 +104,7 @@ const Testimonials = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Join 500+ successful businesses who've transformed their digital presence with LogiBrix. From startups to enterprises, we deliver results that matter.
+            Join 500+ successful businesses who&apos;ve transformed their digital presence with LogiBrix. From startups to enterprises, we deliver results that matter.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ const Testimonials = () => {
             >
               {/* Quote Icon */}
               <div className="absolute top-6 right-6 text-4xl text-blue-500/20 dark:text-blue-400/20">
-                "
+                &ldquo;
               </div>
               
               {/* Avatar & Company */}
@@ -145,7 +145,7 @@ const Testimonials = () => {
 
               {/* Content */}
               <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg italic">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </p>
 
               {/* Result Badge */}

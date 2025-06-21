@@ -11,7 +11,7 @@ const Contact = () => {
               Get In Touch
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              Ready to transform your business? Let's discuss your project and
+              Ready to transform your business? Let&apos;s discuss your project and
               bring your vision to life.
             </p>
           </div>
