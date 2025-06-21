@@ -105,7 +105,7 @@ const Blog = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Stay ahead with LogiBrix's expert insights on web development, digital marketing, and business growth strategies. Learn from our experience building successful digital solutions.
+            Stay ahead with LogiBrix&apos;s expert insights on web development, digital marketing, and business growth strategies. Learn from our experience building successful digital solutions.
           </p>
         </div>
 

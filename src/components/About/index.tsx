@@ -156,8 +156,8 @@ const AboutSection = () => {
               </p>
               <p>
                 We combine technical mastery with business acumen to deliver
-                solutions that not only meet today's requirements but anticipate
-                tomorrow's challenges. Our agile methodology and client-centric
+                solutions that not only meet today&apos;s requirements but anticipate
+                tomorrow&apos;s challenges. Our agile methodology and client-centric
                 approach ensure every project exceeds expectations.
               </p>
               <p>
