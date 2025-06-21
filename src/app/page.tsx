@@ -61,7 +61,6 @@ export default function Home() {
       {/* <Pricing /> */}
       <Blog />
       <Testimonials />
-      <Brands />
       <Contact />
     </>
   );
