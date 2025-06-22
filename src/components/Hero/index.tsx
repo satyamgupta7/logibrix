@@ -22,13 +22,13 @@ const Hero = () => {
                 current += increment;
                 if (current >= target) {
                   element.textContent =
-                    target === 98 ? "98%" : target === 500 ? "500+" : "24/7";
+                    target === 98 ? "98%" : target === 100 ? "100+" : "24/7";
                   clearInterval(timer);
                 } else {
                   element.textContent =
                     target === 98
                       ? `${Math.floor(current)}%`
-                      : target === 500
+                      : target === 100
                         ? `${Math.floor(current)}+`
                         : "24/7";
                 }
@@ -79,7 +79,7 @@ const Hero = () => {
           >
             <div className="text-center">
               <div
-                data-count="500"
+                data-count="100"
                 className="mb-1 text-xl font-bold text-gray-900 sm:text-2xl md:text-3xl dark:text-white"
               >
                 0+

@@ -27,8 +27,8 @@ const AboutSection = () => {
                     element.textContent =
                       target === 98
                         ? "98%"
-                        : target === 500
-                          ? "500+"
+                        : target === 100
+                          ? "100+"
                           : target === 50
                             ? "50+"
                             : "24/7";
@@ -37,7 +37,7 @@ const AboutSection = () => {
                     element.textContent =
                       target === 98
                         ? `${Math.floor(current)}%`
-                        : target === 500
+                        : target === 100
                           ? `${Math.floor(current)}+`
                           : target === 50
                             ? `${Math.floor(current)}+`
@@ -59,7 +59,7 @@ const AboutSection = () => {
   }, []);
 
   const stats = [
-    { number: "500+", count: 500, label: "Projects Delivered" },
+    { number: "100+", count: 100, label: "Projects Delivered" },
     { number: "98%", count: 98, label: "Client Satisfaction" },
     { number: "50+", count: 50, label: "Enterprise Clients" },
     { number: "24/7", count: 24, label: "Support Available" },
@@ -92,7 +92,7 @@ const AboutSection = () => {
     <section
       ref={sectionRef}
       id="about"
-      className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50 py-18 md:py-20 dark:from-gray-900 dark:to-gray-800"
+      className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50 py-14 md:py-14 dark:from-gray-900 dark:to-gray-800"
     >
       {/* Background Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(59,130,246,0.05),transparent_50%)] dark:bg-[radial-gradient(circle_at_70%_30%,rgba(59,130,246,0.03),transparent_50%)]"></div>
@@ -156,9 +156,10 @@ const AboutSection = () => {
               </p>
               <p>
                 We combine technical mastery with business acumen to deliver
-                solutions that not only meet today&apos;s requirements but anticipate
-                tomorrow&apos;s challenges. Our agile methodology and client-centric
-                approach ensure every project exceeds expectations.
+                solutions that not only meet today&apos;s requirements but
+                anticipate tomorrow&apos;s challenges. Our agile methodology and
+                client-centric approach ensure every project exceeds
+                expectations.
               </p>
               <p>
                 From concept to deployment, we maintain the highest standards of
