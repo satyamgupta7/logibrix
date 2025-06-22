@@ -89,7 +89,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="#"
+                  href="/static-website"
                   className="text-gray-300 transition-colors hover:text-white"
                 >
                   Web Development
@@ -97,7 +97,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/e-commerce-website"
                   className="text-gray-300 transition-colors hover:text-white"
                 >
                   E-commerce
@@ -105,7 +105,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/dynamic-website"
                   className="text-gray-300 transition-colors hover:text-white"
                 >
                   Mobile Apps
@@ -113,7 +113,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/dynamic-website"
                   className="text-gray-300 transition-colors hover:text-white"
                 >
                   Digital Marketing
@@ -121,7 +121,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/domain-hosting-assistance"
                   className="text-gray-300 transition-colors hover:text-white"
                 >
                   SEO Services
@@ -160,7 +160,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/careers"
                   className="text-gray-300 transition-colors hover:text-white"
                 >
                   Careers

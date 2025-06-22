@@ -280,7 +280,7 @@ const Pricing = () => {
           <div className="mx-auto max-w-4xl space-y-6">
             {[
               {
-                q: "What&apos;s included in the hosting and domain?",
+                q: "What\u2019s included in the hosting and domain?",
                 a: "All plans include 1 year of premium hosting with 99.9% uptime guarantee, SSL certificate, and domain registration (.com/.in). Renewal costs are separate.",
               },
               {
@@ -289,11 +289,11 @@ const Pricing = () => {
               },
               {
                 q: "Can I upgrade my plan later?",
-                a: "Absolutely! You can upgrade your plan anytime and pay only the difference. We&apos;ll migrate all your existing content seamlessly.",
+                a: "Absolutely! You can upgrade your plan anytime and pay only the difference. We\u2019ll migrate all your existing content seamlessly.",
               },
               {
-                q: "What if I&apos;m not satisfied?",
-                a: "We offer a 30-day money-back guarantee. If you&apos;re not completely satisfied, we&apos;ll refund your payment in full.",
+                q: "What if I\u2019m not satisfied?",
+                a: "We offer a 30-day money-back guarantee. If you\u2019re not completely satisfied, we\u2019ll refund your payment in full.",
               },
             ].map((faq, index) => (
               <div
@@ -316,7 +316,7 @@ const Pricing = () => {
               Ready to Get Started?
             </h3>
             <p className="mx-auto mb-8 max-w-2xl text-xl opacity-90">
-              Join 100+ satisfied clients who&apos;ve transformed their business with
+              Join 100+ satisfied clients who\u2019ve transformed their business with
               our digital solutions. Get a free consultation today!
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">
