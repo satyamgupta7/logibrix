@@ -114,6 +114,8 @@ export const metadata: Metadata = {
 };
 
 import WhatsAppFloat from "@/components/Common/WhatsAppFloat";
+import ChatBot from "@/components/Common/ChatBot";
+import CallButton from "@/components/Common/CallButton";
 
 export default function Home() {
   return (
@@ -127,6 +129,8 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <WhatsAppFloat />
+      <CallButton />
+      <ChatBot />
 
       {/* Structured Data for SEO */}
       <script

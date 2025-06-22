@@ -68,7 +68,7 @@ const Footer = () => {
               </a>
               {/* LinkedIn */}
               <a
-                href="#"
+                href="https://www.linkedin.com/company/logibrix-solution-pvt-ltd"
                 className="text-gray-400 transition-colors hover:text-blue-700"
                 aria-label="LinkedIn"
               >
