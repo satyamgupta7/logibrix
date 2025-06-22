@@ -57,7 +57,7 @@ export default function Home() {
       <Hero />
       <Features />
       <AboutSectionOne />
-      {/* <Pricing /> */}
+      <Pricing />
       <Blog />
       <Testimonials />
       <Contact />
