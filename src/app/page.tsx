@@ -113,6 +113,8 @@ export const metadata: Metadata = {
   },
 };
 
+import WhatsAppFloat from "@/components/Common/WhatsAppFloat";
+
 export default function Home() {
   return (
     <>
@@ -124,6 +126,7 @@ export default function Home() {
       <Blog />
       <Testimonials />
       <Contact />
+      <WhatsAppFloat />
 
       {/* Structured Data for SEO */}
       <script
