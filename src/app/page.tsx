@@ -9,7 +9,8 @@ import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "LogiBrix - Premium Web Development & Digital Solutions | Starting ₹15,000",
+  title:
+    "LogiBrix - Premium Web Development & Digital Solutions | Starting ₹15,000",
   description:
     "Transform your business with LogiBrix's premium web development services. Static websites from ₹15K, E-commerce from ₹35K, Custom apps from ₹75K. 100+ projects delivered, 98% client satisfaction. Free consultation available!",
   keywords: [
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     "cheap website development",
     "best web development company",
     "web design and development",
-    "online business solutions"
+    "online business solutions",
   ],
   authors: [{ name: "LogiBrix Team", url: "https://logibrix.in" }],
   creator: "LogiBrix",
@@ -48,9 +49,9 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   verification: {
@@ -68,13 +69,13 @@ export const metadata: Metadata = {
     siteName: "LogiBrix",
     images: [
       {
-        url: "https://logibrix.in/images/logibrix-og-home.jpg",
+        url: "https://logibrix.in/image/poster/poster1.png",
         width: 1200,
         height: 630,
         alt: "LogiBrix - Premium Web Development Services",
       },
       {
-        url: "https://logibrix.in/images/logibrix-portfolio.jpg",
+        url: "https://logibrix.in/image/poster/poster.png",
         width: 1200,
         height: 630,
         alt: "LogiBrix Portfolio - Web Development Projects",
@@ -87,27 +88,28 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "LogiBrix - Premium Web Development Starting ₹15,000",
-    description: "Transform your business online with LogiBrix. Expert web development, 100+ projects delivered, 98% client satisfaction. Free consultation!",
-    images: ["https://logibrix.in/images/logibrix-twitter-home.jpg"],
+    description:
+      "Transform your business online with LogiBrix. Expert web development, 100+ projects delivered, 98% client satisfaction. Free consultation!",
+    images: ["https://logibrix.in/image/logibrix-twitter-home.jpg"],
     creator: "@LogiBrix",
     site: "@LogiBrix",
   },
   alternates: {
     canonical: "https://logibrix.in",
     languages: {
-      'en-IN': 'https://logibrix.in',
-      'hi-IN': 'https://logibrix.in/hi',
+      "en-IN": "https://logibrix.in",
+      "hi-IN": "https://logibrix.in/hi",
     },
   },
   other: {
-    'business:contact_data:street_address': 'India',
-    'business:contact_data:locality': 'India',
-    'business:contact_data:region': 'India',
-    'business:contact_data:postal_code': '000000',
-    'business:contact_data:country_name': 'India',
-    'business:contact_data:email': 'hello@logibrix.in',
-    'business:contact_data:phone_number': '+91-8358952017',
-    'business:contact_data:website': 'https://logibrix.in',
+    "business:contact_data:street_address": "India",
+    "business:contact_data:locality": "India",
+    "business:contact_data:region": "India",
+    "business:contact_data:postal_code": "000000",
+    "business:contact_data:country_name": "India",
+    "business:contact_data:email": "hello@logibrix.in",
+    "business:contact_data:phone_number": "+91-8358952017",
+    "business:contact_data:website": "https://logibrix.in",
   },
 };
 
@@ -122,7 +124,7 @@ export default function Home() {
       <Blog />
       <Testimonials />
       <Contact />
-      
+
       {/* Structured Data for SEO */}
       <script
         type="application/ld+json"
@@ -130,107 +132,111 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "LogiBrix",
-            "alternateName": "LogiBrix Solution Pvt Ltd",
-            "url": "https://logibrix.in",
-            "logo": "https://logibrix.in/images/logibrix-logo.png",
-            "contactPoint": {
+            name: "LogiBrix",
+            alternateName: "LogiBrix Solution Pvt Ltd",
+            url: "https://logibrix.in",
+            logo: "https://logibrix.in/image/logibrix-logo.png",
+            contactPoint: {
               "@type": "ContactPoint",
-              "telephone": "+91-8358952017",
-              "contactType": "customer service",
-              "email": "hello@logibrix.in",
-              "availableLanguage": ["English", "Hindi"]
+              telephone: "+91-8358952017",
+              contactType: "customer service",
+              email: "hello@logibrix.in",
+              availableLanguage: ["English", "Hindi"],
             },
-            "address": {
+            address: {
               "@type": "PostalAddress",
-              "addressCountry": "IN",
-              "addressRegion": "India"
+              addressCountry: "IN",
+              addressRegion: "India",
             },
-            "sameAs": [
+            sameAs: [
               "https://www.instagram.com/logibrix.in/",
               "https://www.linkedin.com/company/logibrix",
               "https://twitter.com/logibrix",
-              "https://www.facebook.com/logibrix"
+              "https://www.facebook.com/logibrix",
             ],
-            "founder": {
+            founder: {
               "@type": "Person",
-              "name": "LogiBrix Team"
+              name: "LogiBrix Team",
             },
-            "foundingDate": "2023",
-            "numberOfEmployees": "10-50",
-            "slogan": "Transform Your Digital Presence",
-            "description": "LogiBrix is a premium web development agency specializing in modern, responsive websites and digital solutions for businesses of all sizes.",
-            "serviceArea": {
+            foundingDate: "2023",
+            numberOfEmployees: "10-50",
+            slogan: "Transform Your Digital Presence",
+            description:
+              "LogiBrix is a premium web development agency specializing in modern, responsive websites and digital solutions for businesses of all sizes.",
+            serviceArea: {
               "@type": "Country",
-              "name": "India"
+              name: "India",
             },
-            "hasOfferCatalog": {
+            hasOfferCatalog: {
               "@type": "OfferCatalog",
-              "name": "Web Development Services",
-              "itemListElement": [
+              name: "Web Development Services",
+              itemListElement: [
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Static Website Development",
-                    "description": "Professional static websites for small businesses"
+                    name: "Static Website Development",
+                    description:
+                      "Professional static websites for small businesses",
                   },
-                  "price": "15000",
-                  "priceCurrency": "INR"
+                  price: "15000",
+                  priceCurrency: "INR",
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "E-commerce Website Development",
-                    "description": "Full-featured online stores with payment integration"
+                    name: "E-commerce Website Development",
+                    description:
+                      "Full-featured online stores with payment integration",
                   },
-                  "price": "35000",
-                  "priceCurrency": "INR"
+                  price: "35000",
+                  priceCurrency: "INR",
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Custom Web Application",
-                    "description": "Enterprise-grade custom web applications"
+                    name: "Custom Web Application",
+                    description: "Enterprise-grade custom web applications",
                   },
-                  "price": "75000",
-                  "priceCurrency": "INR"
-                }
-              ]
+                  price: "75000",
+                  priceCurrency: "INR",
+                },
+              ],
             },
-            "aggregateRating": {
+            aggregateRating: {
               "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "100",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
-          })
+              ratingValue: "4.9",
+              reviewCount: "100",
+              bestRating: "5",
+              worstRating: "1",
+            },
+          }),
         }}
       />
-      
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "LogiBrix",
-            "url": "https://logibrix.in",
-            "potentialAction": {
+            name: "LogiBrix",
+            url: "https://logibrix.in",
+            potentialAction: {
               "@type": "SearchAction",
-              "target": {
+              target: {
                 "@type": "EntryPoint",
-                "urlTemplate": "https://logibrix.in/search?q={search_term_string}"
+                urlTemplate:
+                  "https://logibrix.in/search?q={search_term_string}",
               },
-              "query-input": "required name=search_term_string"
-            }
-          })
+              "query-input": "required name=search_term_string",
+            },
+          }),
         }}
       />
-      
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -238,37 +244,37 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://logibrix.in",
-            "name": "LogiBrix",
-            "image": "https://logibrix.in/images/logibrix-logo.png",
-            "telephone": "+91-8358952017",
-            "email": "hello@logibrix.in",
-            "url": "https://logibrix.in",
-            "address": {
+            name: "LogiBrix",
+            image: "https://logibrix.in/image/logibrix-logo.png",
+            telephone: "+91-8358952017",
+            email: "hello@logibrix.in",
+            url: "https://logibrix.in",
+            address: {
               "@type": "PostalAddress",
-              "addressCountry": "IN"
+              addressCountry: "IN",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": "20.5937",
-              "longitude": "78.9629"
+              latitude: "20.5937",
+              longitude: "78.9629",
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
+              dayOfWeek: [
                 "Monday",
                 "Tuesday",
                 "Wednesday",
                 "Thursday",
                 "Friday",
-                "Saturday"
+                "Saturday",
               ],
-              "opens": "09:00",
-              "closes": "18:00"
+              opens: "09:00",
+              closes: "18:00",
             },
-            "priceRange": "₹15,000 - ₹75,000+",
-            "paymentAccepted": "Cash, Credit Card, Bank Transfer, UPI",
-            "currenciesAccepted": "INR"
-          })
+            priceRange: "₹15,000 - ₹75,000+",
+            paymentAccepted: "Cash, Credit Card, Bank Transfer, UPI",
+            currenciesAccepted: "INR",
+          }),
         }}
       />
     </>
